@@ -47,6 +47,22 @@ section{
     padding:1rem;
 }
 
+.social a i{
+    color: #111;
+    font-size: 25px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  .social a i:hover {
+    color: var(--yellow);
+  }
+
+
 .btn{
     padding:.7rem 3rem;
     background:#333;
@@ -195,6 +211,7 @@ header .navbar ul li a:hover{
     padding:1rem 0;
     font-weight: normal;
 }
+
 
 .about .row .info h3 span{
     color:#eee;
